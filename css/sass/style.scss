@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, abbr, acronym, address, big, cite, code, hr, del, dfn, font, ins, kbd, q, s, samp, small, strike, tt, var, center,  dl, dt, dd, ol, ul, li, fieldset, form, label, legend, select, input, button, textarea, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; text-decoration:none; outline: 0; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato); /* font-family: 'Lato', sans-serif; */
+
+body {
+	background: url('../img/bg.png') repeat-x 0 0;
+	font-size: 62.5%;
+}
+
+.container {
+	clear: both;
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+/* elementos */
+body > * {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	color: #605f5f;
+}
+
+h1 {
+	display: left;
+	width: 100%;
+	clear: both;
+	margin: 70px auto 0;
+	text-align: center;
+
+	a {
+		background: url('../img/logo_edertonLima.png') no-repeat 0 0;
+		width: 389px;
+		height: 94px;
+		display: inline-block;
+		text-indent: -10000px;
+	}
+}
+
+h2 {
+	font-size: 2.2em;
+	color: #000000;
+}
+
+h3 {
+	font-size: 1.3em;
+	color: #343434;
+}
+
+
+sup {
+	margin-right: 5px;
+	font-size: 60%;
+}
+
+p {
+	display: block;
+}
+
+a {
+	color: #749ad1;
+
+	&:hover {
+		color: #000000;
+	}
+}
+
+
+header {
+	padding-bottom: 70px;
+
+	nav {
+
+		&.header {
+			height: 30px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #749ad1;
+			background-color: #ffffff;
+			box-shadow: 0 0 5px #646464;
+
+			section {
+				width: 50%;
+				float: left;
+
+				&.redes {
+					display: none;
+
+					a {
+						background: url('../img/sprite.png') no-repeat;
+						height: 16px;
+						width: 16px;
+						display: inline-block;
+						text-indent: -10000px;
+						margin: 12px 5px 0 0;
+
+						&.googlePlus {
+							background-position: 0 0;
+						}
+
+						&.facebook {
+							background-position: 0 0;
+						}
+
+						&.twitter {
+							background-position: 0 0;
+						}
+					}
+				}
+
+				&.contato {
+					float: right;
+					text-align: right;
+					line-height: 37px;
+
+					a {
+						color: #9e9e9e;
+
+						&:hover {
+							color: #000000;
+						}
+					}
+
+					span.telefone {
+						margin-left: 30px;
+						color: #749ad1;
+
+						sup {
+							margin-right: 2px;
+						}
+					}
+				}
+			}
+
+		}
+
+	}
+}
+
+section.content {
+	both: clear;
+	padding-bottom: 70px;
+	overflow: hidden;
+
+	article {
+		text-align: justify;
+
+		&.perfil {
+			width: 80%;
+			margin: 0 auto;
+			overflow: hidden;
+
+			img {
+				float: left;
+				border: 5px solid #ffffff;
+				border-radius: 8px;
+				max-width: 20%;
+			}
+
+			h2, h3, p {
+				padding-left: 25%;
+			}
+
+			h2 {
+				margin-top: 1%;
+			}
+
+			h3 {
+				margin-bottom: 20px;
+			}
+
+			p.descricao {
+				font-size: 1.2em;
+				line-height: 1.2em;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+
+footer {
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+
+	section {
+		text-align: center;
+		float: left;
+		width: 50%;
+		display: none;
+
+		h3 {
+			color: #749ad1;
+			font-size: 2.4em;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font-size: 1.2em;
+		}
+
+		&.atributo {
+			width: 42%;
+
+			p {
+				text-align: right;
+				padding-right: 5px;
+				color: #343434;
+			}
+		}
+
+		&.valorAtributo {
+			width: 58%;
+
+			p {
+				text-align: left;
+				padding-left: 5px;
+			}
+		}
+
+		&.VamosConversar {
+
+			p {
+				line-height: 1.5em;
+
+				sup {
+					margin-right: 2px;
+				}
+			}
+		}
+
+		&.copy {
+			margin-top: 70px;
+			width: 100%;
+			color: #9e9e9e;
+			height: 50px;
+			line-height: 50px;
+			background-color: #f7f7f7;
+			display: block;
+		}
+	}
+}
+
+
+
+@media all and (max-width: 1100px){
+}

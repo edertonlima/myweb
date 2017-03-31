@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, abbr, acronym, address, big, cite, code, hr, del, dfn, font, ins, kbd, q, s, samp, small, strike, tt, var, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, select, input, button, textarea, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* fonts */
+/* font-family: 'Lato', sans-serif; */
+body {
+  background: url("../img/congruent_outline.png") repeat 0 0;
+  font-size: 62.5%; }
+
+.container {
+  clear: both;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box; }
+
+@media all and (min-width: 0px) {
+  .container {
+  	padding: 0 20px;
+  }
+}
+
+/* elementos */
+body > * {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  color: #605f5f; }
+
+h1 {
+  display: left;
+  width: 100%;
+  clear: both;
+  margin: 70px auto 0;
+  text-align: center; }
+  h1 a {
+	width: 50%;
+	max-width: 480px;
+	min-width: 220px;
+	display: inline-block;
+	text-indent: -10000px;
+	cursor: default;
+	position: relative; }
+	h1 a img { 
+		width: 100%; 
+		display: block;}
+	h1 a img.logo-txt { 
+		width: 44%;
+		max-width: 343px;
+		display: block;
+		position: absolute;
+		bottom: 20%;
+		height: auto;
+		right: 12%; }
+
+h2 {
+  font-size: 2.2em;
+  color: #000000; }
+
+h3 {
+  font-size: 1.3em;
+  color: #343434; }
+
+sup {
+  margin-right: 5px;
+  font-size: 60%; }
+
+p {
+  display: block; }
+
+a {
+  color: #749ad1; }
+  a:hover {
+	color: #000000; }
+
+  header nav.header {
+	height: 50px;
+	/*padding-bottom: 10px;*/
+	border-top:4px solid #e6552e;
+	/*box-shadow: 0 0 5px #646464;*/ }
+	header nav.header section {
+	  width: 100%;
+	  float: left; }
+	  header nav.header section.redes {
+		display: none; }
+		header nav.header section.redes a {
+		  background: url("../img/sprite.png") no-repeat;
+		  height: 16px;
+		  width: 16px;
+		  display: inline-block;
+		  text-indent: -10000px;
+		  margin: 12px 5px 0 0; }
+		  header nav.header section.redes a.googlePlus {
+			background-position: 0 0; }
+		  header nav.header section.redes a.facebook {
+			background-position: 0 0; }
+		  header nav.header section.redes a.twitter {
+			background-position: 0 0; }
+	  header nav.header section.contato {
+		float: right;
+		text-align: right;
+		line-height: 50px;
+		font-size: 1.2em; }
+		header nav.header section.contato a {
+		  color: #fff; }
+		  header nav.header section.contato a:hover {
+			color: #e6552e; }
+		header nav.header section.contato span.telefone {
+		  /*margin-left: 30px; */
+		  color: #749ad1; }
+		  header nav.header section.contato span.telefone sup {
+			margin-right: 2px; }
+
+section.content {
+  both: clear;
+  padding-bottom: 70px;
+  overflow: hidden; }
+  section.content article {
+	text-align: justify; }
+	section.content article.perfil {
+	  width: 80%;
+	  margin: 0 auto;
+	  overflow: hidden; }
+	  section.content article.perfil img {
+		float: left;
+		border: 5px solid #ffffff;
+		border-radius: 8px;
+		max-width: 20%; }
+	  section.content article.perfil h2, section.content article.perfil h3, section.content article.perfil p {
+		padding-left: 25%; }
+	  section.content article.perfil h2 {
+		margin-top: 1%; }
+	  section.content article.perfil h3 {
+		margin-bottom: 20px; }
+	  section.content article.perfil p.descricao {
+		font-size: 1.2em;
+		margin-bottom: 10px; }
+
+footer {
+  overflow: hidden;
+  clear: both;
+  width: 100%; }
+  footer section {
+	text-align: center;
+	float: left;
+	width: 50%;
+	display: none; }
+	footer section h3 {
+	  color: #749ad1;
+	  font-size: 2.4em;
+	  text-align: center;
+	  margin-bottom: 10px; }
+	footer section p {
+	  font-size: 1.2em; }
+	footer section.atributo {
+	  width: 42%; }
+	  footer section.atributo p {
+		text-align: right;
+		padding-right: 5px;
+		color: #343434; }
+	footer section.valorAtributo {
+	  width: 58%; }
+	  footer section.valorAtributo p {
+		text-align: left;
+		padding-left: 5px; }
+	footer section.VamosConversar p {
+	  line-height: 1.5em; }
+	  footer section.VamosConversar p sup {
+		margin-right: 2px; }
+	footer section.copy {
+	  width: 100%;
+	  color: #fff;
+	  height: 50px;
+	  line-height: 50px;
+	  border-bottom: 4px solid #e6552e;
+	  display: block;
+	  position: fixed;
+	  bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */
